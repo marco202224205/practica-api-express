@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Libros</title>
+
+  <!-- Librería externa de visualización: Chart.js vía CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+      color: #222;
+    }
+    h1 { text-align: center; }
+    h2 { margin-top: 35px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #2c3e50;
+      color: white;
+    }
+    tr:nth-child(even) { background-color: #f4f4f4; }
+    .grafica { max-width: 700px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Libros</h1>
+
+  <h2>Registros de la base de datos</h2>
+  <div id="tabla-datos">Cargando datos...</div>
+
+  <h2>Páginas por libro</h2>
+  <div class="grafica">
+    <canvas id="miGrafica"></canvas>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
