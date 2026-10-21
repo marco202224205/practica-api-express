@@ -1,0 +1,12 @@
+[
+  { "nombre": "La sombra del viento", "autor": "Carlos Ruiz Zafón", "paginas": 576 },
+  { "nombre": "Rayuela", "autor": "Julio Cortázar", "paginas": 600 },
+  { "nombre": "El laberinto de la soledad", "autor": "Octavio Paz", "paginas": 191 },
+  { "nombre": "Ficciones", "autor": "Jorge Luis Borges", "paginas": 224 },
+  { "nombre": "La casa de los espíritus", "autor": "Isabel Allende", "paginas": 433 },
+  { "nombre": "Como agua para chocolate", "autor": "Laura Esquivel", "paginas": 246 },
+  { "nombre": "Los de abajo", "autor": "Mariano Azuela", "paginas": 160 },
+  { "nombre": "Aura", "autor": "Carlos Fuentes", "paginas": 64 },
+  { "nombre": "El llano en llamas", "autor": "Juan Rulfo", "paginas": 160 },
+  { "nombre": "Crónica de una muerte anunciada", "autor": "Gabriel García Márquez", "paginas": 122 }
+]
